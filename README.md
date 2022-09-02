@@ -38,11 +38,36 @@ CODE GOES HERE
 ## 👨‍💻 Contributing
 Sth
 
-## 📦 Builds
-Sth
 
 ## 📂 Directory Structure
-Sth
+```
+├───tests
+├───retweeter
+│   ├───__init__.py
+│   ├───classification.py
+│   ├───crawler.py
+│   ├───retweeter.py
+│   └───db
+│       ├───analytics
+│       │   ├───crud.py
+│       │   ├───database.py
+│       │   ├───models.py
+│       │   └───schemas.py
+│       └───persistent_log
+│           ├───crud.py
+│           ├───database.py
+│           └───schemas.py
+└───web
+    ├───client.py
+    └───app
+        ├───__init__.py
+        ├───dependencies.py
+        ├───main.py
+        └───routers
+            ├───analytics.py
+            └───logs.py
+
+```
 
 ## 📅 Release schedule / Development schedule / Plans / TODOs
 **Version 1.0.0**
