@@ -8,10 +8,10 @@ A Twitter bot which purpose is to retweet tweets that relate to emergencies such
 * Related: [Kaggle problem](https://www.kaggle.com/competitions/nlp-getting-started/overview)
 
 ## 👨‍💻 Contributing
+* [bswck](https://github.com/bswck)
 * [SzymkowskiDev](https://github.com/SzymkowskiDev)
 * [OlegTkachenkoY](https://github.com/OlegTkachenkoY)
 * [PanNorek](https://github.com/PanNorek)
-* [bswck](https://github.com/bswck)
 
 
 ## 📂 Directory Structure
