@@ -1,10 +1,10 @@
 
-# The Disaster Retweeter
-A twitter bot whose purpose is to retweet tweets that relate to emergencies such as fires, storms, explosions and other types of disasters.
+# Disaster Retweeter
+A Twitter bot which purpose is to retweet tweets that relate to emergencies such as fires, storms, explosions and other types of disasters.
 
 ## 🔗 Related Projects 
 * Parent repository: [nlp-disaster-tweets](https://github.com/SzymkowskiDev/nlp-disaster-tweets)
-* BOT Live analytics in an online dashboard [nlp-disaster-tweets.com](https://nlp-disaster-tweets.herokuapp.com/)
+* Bot Live analytics in an online dashboard [nlp-disaster-tweets.com](https://nlp-disaster-tweets.herokuapp.com/)
 * Related: [Kaggle problem](https://www.kaggle.com/competitions/nlp-getting-started/overview)
 
 ## 👨‍💻 Contributing
@@ -12,6 +12,37 @@ A twitter bot whose purpose is to retweet tweets that relate to emergencies such
 * [OlegTkachenkoY](https://github.com/OlegTkachenkoY)
 * [PanNorek](https://github.com/PanNorek)
 * [bswck](https://github.com/bswck)
+
+
+## 📂 Directory Structure
+```
+├───tests
+├───retweeter
+│   ├───__init__.py
+│   ├───classification.py
+│   ├───crawler.py
+│   ├───retweeter.py
+│   └───db
+│       ├───analytics
+│       │   ├───crud.py
+│       │   ├───database.py
+│       │   ├───models.py
+│       │   └───schemas.py
+│       └───persistent_log
+│           ├───crud.py
+│           ├───database.py
+│           └───schemas.py
+└───web
+    ├───client.py
+    └───app
+        ├───__init__.py
+        ├───dependencies.py
+        ├───main.py
+        └───routers
+            ├───analytics.py
+            └───logs.py
+
+```
 
 ## 🏛️ Architecture
 Link to the wiki or external site.
