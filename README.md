@@ -57,6 +57,6 @@ A Twitter bot which purpose is to retweet tweets that relate to emergencies such
 Link to the wiki or external site.
 
 ## 🎓 Learning Materials
-* [Twitter Deeveloper Platform](https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api)
+* [Twitter Developer Platform](https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api)
 * [Tweepy Documentation](https://docs.tweepy.org/en/latest/)
 * [FastAPI documentation](https://fastapi.tiangolo.com/)
