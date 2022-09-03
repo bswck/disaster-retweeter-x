@@ -26,11 +26,11 @@ A Twitter bot which purpose is to retweet tweets that relate to emergencies such
 │       ├───analytics
 │       │   ├───crud.py
 │       │   ├───database.py
-│       │   ├───models.py
 │       │   └───schemas.py
 │       └───persistent_log
 │           ├───crud.py
 │           ├───database.py
+│           ├───models.py
 │           └───schemas.py
 └───web
     ├───client.py
