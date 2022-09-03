@@ -16,7 +16,16 @@ A Twitter bot which purpose is to retweet tweets that relate to emergencies such
 
 ## 📂 Directory Structure
 ```
+├───media
+│   ├───banner.png
+│   └───profile_picture.png
 ├───tests
+│   ├───test_classification.py
+│   ├───test_crawler.py
+│   ├───test_db.py
+│   ├───test_retweeter.py
+│   ├───test_web_app.py
+│   └───test_web_client.py
 ├───retweeter
 │   ├───__init__.py
 │   ├───classification.py
@@ -32,7 +41,7 @@ A Twitter bot which purpose is to retweet tweets that relate to emergencies such
 │           ├───database.py
 │           ├───models.py
 │           └───schemas.py
-└───web
+└───retweeter_web
     ├───client.py
     └───app
         ├───__init__.py
