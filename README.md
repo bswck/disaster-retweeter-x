@@ -4,7 +4,7 @@ A Twitter bot which purpose is to retweet tweets that relate to emergencies such
 
 ## 🔗 Related Projects 
 * Parent repository: [nlp-disaster-tweets](https://github.com/SzymkowskiDev/nlp-disaster-tweets)
-* Bot Live analytics in an online dashboard [nlp-disaster-tweets.com](https://nlp-disaster-tweets.herokuapp.com/)
+* Live bot analytics: [nlp-disaster-tweets.com](https://nlp-disaster-tweets.herokuapp.com/)
 * Related: [Kaggle problem](https://www.kaggle.com/competitions/nlp-getting-started/overview)
 
 ## 👨‍💻 Contributing
