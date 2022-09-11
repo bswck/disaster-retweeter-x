@@ -1,7 +1,6 @@
 from sqlalchemy import Column, ForeignKey, Integer, String, DateTime, Boolean
 from sqlalchemy import text
 from sqlalchemy.orm import relationship
-
 from retweeter.db.persistent_log.database import Base
 
 
@@ -27,8 +26,7 @@ class ClassificationLog(Base):
     keyword = Column(String)
     location = Column(String)
     target = Column(Boolean)
-    lang = Column(String)
-    retweet_count = Column(Integer)
-    favorite_count = Column(Integer)
+    # this is being queried
+    retweeted = Column(Boolean)
     user_id = Column(Integer, ForeignKey("twitter_users.id"))
     user = relationship("TwitterUser", back_populates="classification_logs")
